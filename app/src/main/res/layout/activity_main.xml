@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0318ffff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/setButtonEnable"
+        android:text="@string/set_button"
+        android:layout_width="90dp"
+
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/setCodeEnable"
+        android:layout_alignRight="@+id/help"
+        android:layout_alignEnd="@+id/help"
+        android:layout_alignLeft="@+id/help"
+        android:layout_alignStart="@+id/help"
+        android:background="#ff18ffff" />
+
+    <Button
+        android:id="@+id/setButtonDisable"
+        android:text="@string/set_button"
+
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/setCodeDisable"
+        android:layout_alignRight="@+id/help"
+        android:layout_alignEnd="@+id/help"
+        android:layout_alignLeft="@+id/help"
+        android:layout_alignStart="@+id/help"
+        android:background="#ff18ffff" />
+
+    <EditText
+        android:id="@+id/setCodeDisable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/setCodeEnable"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="35sp" >
+
+       
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/setCodeDisable"
+        android:layout_alignLeft="@+id/textView1"
+        android:text="@string/disable"
+         android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/enable"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/setCodeEnable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="35sp" />
+
+     <TextView
+         android:id="@+id/credits"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/setButtonDisable"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="8dp"
+         android:text="@string/credits"
+         android:textSize="40sp"
+         android:textStyle="bold" />
+
+     <TextView
+         android:id="@+id/help"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/credits"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="8dp"
+         android:text="@string/help"
+         android:textSize="30sp"
+         android:textStyle="bold" />
+
+</RelativeLayout>
+ 

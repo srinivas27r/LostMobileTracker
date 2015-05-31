@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lost Mobile Tracker</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="set_button">SET</string>
+    <string name="enable">Set code to start the alert</string>
+    <string name="disable">Set code to stop the alert</string>
+	<string name="credits">CREDITS </string>
+	<string name="help">HELP !!! </string>
+	<string name="author">SRINIVAS R </string>
+	<string name="mail">cena.apple@gmail.com </string>
+	<string name="helpContent">Lost mobile can be found by sending the codeword via message from any mobile, what you have set in the application.After this codeword message is received the mobile starts make sound loudly irrespective of the profile(vibration/silent) used in mobile.So that user can easily find their mobile.To stop the alert similarly send the codeword via message.</string>
+</resources>
